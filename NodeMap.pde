@@ -412,7 +412,7 @@ class NodeMap extends Matrix {
             ((Node)cells.get(j).get(i)).setWalkable (false, false, color(0,130,0));
             break;
           case 4:
-            ((Node)cells.get(j).get(i)).setWalkable (false, true, 0);//color(100,100,100));
+            ((Node)cells.get(j).get(i)).setWalkable (false, true, color(100,100,100));
             break;
           case 5:
             if(j!=30)
